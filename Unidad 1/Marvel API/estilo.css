@@ -1,0 +1,11 @@
+*{
+  
+img.img-thumbnail {
+width: 80%;
+height: 80%;
+}
+
+div.container{
+background: rgb(255, 0, 0);
+ } 
+}
