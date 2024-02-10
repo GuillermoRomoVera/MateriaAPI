@@ -6,6 +6,7 @@ const app = express();
 app.use(morgan('tiny'))
 app.use(express.json());
 app.use(express.text());
+app.use(express.urlencoded({ extended: false}));
 
 //Recibiendo parametros en la caadena de consulta
 app.get("/alumnos", (req,res, next) => {
@@ -27,6 +28,11 @@ app.get("/administrativos", (req,res, next) => {
         console.log(req.body[campo]);
     }
     res.send("Hola");
+})
+
+app.get("/prefectos", (req,res, next) => {
+    console.log(req.body);
+    res.send("Prefectos TecNM");
 })
 
 app.listen(3000, () =>{
