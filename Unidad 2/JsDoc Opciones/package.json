@@ -1,0 +1,6 @@
+{
+  "description": "",
+  "devDependencies": {
+    "clean-jsdoc-theme": "^4.2.17"
+  }
+}
