@@ -8,7 +8,7 @@ app.get('/download', (req, res, next) => {
 })
 
 app.get('/send', (req, res, next) => {
-  res.sendFile(path.join(__dirname, '/imagenes/tec.png'));
+  res.sendFile(path.join(__dirname, '/imagenes/tec.png '));
 })
 
 app.listen(3000, () => {

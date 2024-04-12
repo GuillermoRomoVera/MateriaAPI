@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-openssl-cert": "^0.1.42",
+    "yaml": "^2.4.1"
+  }
+}
