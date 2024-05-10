@@ -1,3 +1,3 @@
 export function calcularArea(base, altura) {
-    return (base * altura)/2;
+    return (base * altura) / 2;
 }
